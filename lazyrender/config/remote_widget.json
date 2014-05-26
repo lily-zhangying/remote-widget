@@ -4,7 +4,7 @@
         "url" : "/pagelet/page/index",
         "params" : {
             "a" : "a",
-            "b" : "$b.value"
+            "b" : "{%$b.value%}"
         }
 
     },
