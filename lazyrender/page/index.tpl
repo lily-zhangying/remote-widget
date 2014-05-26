@@ -4,12 +4,6 @@
         <script type="text/javascript" src="/static/lazyload.js"></script>
         <script type="text/javascript" src="/static/BigPipe.js"></script>
         <script type="text/javascript">
-        // window.onload = function() {
-        //     var elms = document.getElementsByClassName('g_fis_bigrender');
-        //     for (var i = 0, len = elms.length; i < len; i++) {
-        //         window['eval'] && window['eval'](elms[i].innerHTML);
-        //     }
-        // };
         </script>
     {%/head%}
     {%body%}
@@ -19,8 +13,19 @@
         }
         {%/style%}
 
+        <h1>test:data:  {%$b.index%} </h1>
+
         {%require name="pagelet:page/index.css"%}
-        {%remote_widget name="pagelet:widget/box/box.tpl" pagelet_id="w_container" rule="rule1" %}
+
+        <!-- 有嵌套的widget -->
+        {%remote_widget pagelet_id="w_container" rule="rule1"%}
+
+        <!-- 请求group，不支持group属性，需要写三个remote_widget一起请求 -->
+        {%remote_widget pagelet_id="third" rule="rule1"%}
+
+        {%remote_widget pagelet_id="third_1" rule="rule1"%}
+
+        {%remote_widget pagelet_id="third_2" rule="rule1"%}
 
 
     {%/body%}
