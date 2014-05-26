@@ -1,0 +1,6 @@
+[submodule "lazyrender/fis-smarty-bigpipe-plugin"]
+	path = lazyrender/fis-smarty-bigpipe-plugin
+	url = https://github.com/lily-zhangying/fis-smarty-bigpipe-plugin.git
+[submodule "lazyrender/plugin"]
+	path = lazyrender/plugin
+	url = https://github.com/lily-zhangying/fis-smarty-bigpipe-plugin.git
