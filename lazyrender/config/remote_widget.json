@@ -4,12 +4,13 @@
         "url" : "/pagelet/page/index",
         "params" : {
             "a" : "a",
-            "b" : "{%$b.value%}"
+            "b" : "$b.value",
+            "test" : "$test.v.value"
         }
 
     },
      "rule2" : {
-        "url" : "http://10.211.55.3:8888/pagelet/page/index"
-        
+        "domain" : "http://10.211.55.3:8888/",
+        "url" : "pagelet/page/index"
     }
 }
