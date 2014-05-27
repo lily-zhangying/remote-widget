@@ -13,7 +13,7 @@
         }
         {%/style%}
 
-        <h1>test:data:  {%$b.index%} </h1>
+        <h1>test data:  {%$b.index%} </h1>
 
         {%require name="pagelet:page/index.css"%}
 
