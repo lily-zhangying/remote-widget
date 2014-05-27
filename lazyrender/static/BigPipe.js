@@ -126,8 +126,26 @@ var BigPipe = function() {
         });
     }
 
+    function onPagelets(obj, id) {
+        //
+        // Quickling请求响应
+        //
+        if (obj.title) {
+            document.title = obj.title;
+        }
+
+        // //
+        // // 清空需要填充的DOM容器
+        // //
+        container = document.getElementById(id);
+        container.innerHTML = '';
+        pagelets = obj.pagelets;
+
+        process(obj);
+    }
+
     return {
         asyncLoad: asyncLoad,
-        process : process
+        onPagelets: onPagelets
     }
 }();
