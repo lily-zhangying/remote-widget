@@ -17,13 +17,14 @@ FIS quickling方案中， 实现异步请求其他域名widget的功能
 ```
 
 参数：
-name : widget名字
-pagelet_id : 页面pagelet容器
-rule : 远程url规则。从smarty config目录下的remote_widget.json中读取。
+* name : widget名字
+* pagelet_id : 页面pagelet容器
+* rule : 远程url规则。从smarty config目录下的remote_widget.json中读取。
 
 ### rule 请求规则
 
-remote_widget.json，上线时需要发布到smarty config目录下
+remote_widget.json，上线时需要发布到smarty config目录下. 
+本地放在common/config/remote_widget.json即可。
 
 ```json
 {
