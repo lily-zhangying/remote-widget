@@ -96,6 +96,7 @@ remote_widget.json，上线时需要发布到smarty config目录下.
 1. 直接更新原有quickling方案的插件，[新插件](https://github.com/lily-zhangying/fis-smarty-bigpipe-plugin)
 
 #### 定制插件
+1. **推荐：迁移到FIS官方提供的插件，如果无法满足可以按照以下方法自行修改**
 
 2. 如果原有quickling插件经过定制，请自行修改两处代码
 
