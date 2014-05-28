@@ -55,6 +55,7 @@ remote_widget.json，上线时需要发布到smarty config目录下
 
 ```tpl
 {%widget name="remote:widget/a/a.tpl" pagelet_id="remote_container" mode="quickling" %}
+```
 
 * widget name 与客户端A保持一致
 * pagelet_id 与客户端A保持一致
