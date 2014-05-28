@@ -4,6 +4,23 @@
 
 FIS quickling方案中， 实现异步请求其他域名widget的功能
 
+
+## 使用demo
+
+以下文档中，发起请求的域名我们成为客户端A, 其他域名我们成为服务端B.
+
+1. 下载A_client_side和B_server_side，分别部署到不同机器。
+2. 两台机器都安装fisp后，分别执行以下命令，开启服务器
+
+```bash
+    fisp release
+    fisp server start
+```
+
+2. 修改A_client_side中config/remote_widget.json代码。修改rule1中的domain到服务器B的地址（domain，注意修改端口）
+3. 在A机器浏览器中输入 http://localhost:8080/demo/page/index 预览页面效果
+
+
 ## 使用
 
 以下文档中，发起请求的域名我们成为客户端A, 其他域名我们成为服务端B.
