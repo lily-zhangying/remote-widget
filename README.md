@@ -45,13 +45,13 @@ remote_widget.json，上线时需要发布到smarty config目录下
 ```
 * domain ： 域名
 * url： 请求路径
-* params ： 请求url中参数列表，** 支持smarty变量的形式** 。** 注意变量前面一定要加$符号 **
+* params ： 请求url中参数列表，**支持smarty变量的形式** 。**注意变量前面一定要加$符号**
 * remote_widget插件使用rule1的时候，请求的url为：http://aaa.baidu.com:8000/pagelet/page/index?pagelet[]=some_pagelet&force_mode=1&t=123313&a=a&b=b_value&test=test_value
 
 
 ## 服务端B
 
-** 服务端必须也使用FIS quickling解决方案** 。被客户端A请求的模板必须包括以下代码
+**服务端必须也使用FIS quickling解决方案** 。被客户端A请求的模板必须包括以下代码
 
 ```tpl
 {%widget name="remote:widget/a/a.tpl" pagelet_id="remote_container" mode="quickling" %}
