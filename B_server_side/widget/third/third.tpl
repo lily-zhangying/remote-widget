@@ -1,6 +1,6 @@
 <div id='third'>
     <p>
-        third screen
+        third screen group a
     </p>
 </div>
 {%script%}

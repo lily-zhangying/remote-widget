@@ -5,10 +5,8 @@
 @import url('./box.css?__inline');
 {%/style%}
 <div id="box">
-    This is a test
+    box_parent
     {%widget name="pagelet:widget/box/box_child/box_child.tpl"%}
-    {%widget name="pagelet:widget/box/box_child/box_child.tpl"%}
-
 </div>
 <script>
 alert('test');

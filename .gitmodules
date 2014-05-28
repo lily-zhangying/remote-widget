@@ -1,3 +1,6 @@
-[submodule "lazyrender/plugin"]
-	path = lazyrender/plugin
+[submodule "A_client_side/plugin"]
+	path = A_client_side/plugin
+	url = https://github.com/lily-zhangying/fis-smarty-bigpipe-plugin.git
+[submodule "B_server_side/plugin"]
+	path = B_server_side/plugin
 	url = https://github.com/lily-zhangying/fis-smarty-bigpipe-plugin.git
