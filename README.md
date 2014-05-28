@@ -81,13 +81,13 @@ remote_widget.json，上线时需要发布到smarty config目录下.
 
 ## remote_widget插件工作流程
 1. 发送ajax请求到某url，返回的json数据
-2. 页面调用 BigPipe.onPageletes(json, id) 来渲染到页面。
+2. 页面调用 BigPipe.onPagelets(json, id) 来渲染到页面。
 
 ## 原有QUICKLING方案接入remote_widget
 
 ### BigPipe.js更新
-* 确认BigPipe.js中有BigPipe.onPageletes方法。
-* 原quickling中lazyrender方案没有此方法，[更新地址](https://github.com/lily-zhangying/remote-widget/blob/master/lazyrender/static/BigPipe.js)
+* 确认BigPipe.js中有BigPipe.onPagelets方法。
+* 原quickling中lazyrender方案没有此方法，[更新地址](https://github.com/lily-zhangying/remote-widget/blob/master/A_client_side/static/BigPipe.js)
 * 其他方案中有此方法的不用更新
 
 
