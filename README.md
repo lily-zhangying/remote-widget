@@ -41,7 +41,7 @@ FIS quickling方案中， 实现异步请求其他域名widget的功能
 ### rule 请求规则
 
 remote_widget.json，上线时需要发布到smarty config目录下. 
-本地放在common/config/remote_widget.json即可。
+本地放在根目录 common/remote_widget.json即可。
 
 ```json
 {
