@@ -19,3 +19,9 @@ fis.config.merge({
         ]
     }
 });
+
+//发布remote_widget.json到smarty config目录
+fis.config.get('roadmap.path').unshift({
+    reg : 'remote_widget.json',
+    release : '/config/remote_widget.json'
+});
